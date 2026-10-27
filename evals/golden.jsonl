@@ -1,0 +1,11 @@
+{"id": "refund-window", "question": "How long do customers have to request a full refund?", "expected_docs": ["refund-policy"], "expected_substrings": ["30 days"], "expected_tools": ["search_docs"]}
+{"id": "refund-timing", "question": "How many business days until a refund arrives?", "expected_docs": ["refund-policy"], "expected_substrings": ["5 to 7"], "expected_tools": ["search_docs"]}
+{"id": "support-hours", "question": "What hours is the support team available?", "expected_docs": ["support-hours"], "expected_substrings": ["9 AM to 6 PM UTC"], "expected_tools": ["search_docs"]}
+{"id": "priority-response", "question": "How fast do enterprise priority tickets get a first response?", "expected_docs": ["support-hours"], "expected_substrings": ["1 hour"], "expected_tools": ["search_docs"]}
+{"id": "encryption", "question": "How is data encrypted at rest?", "expected_docs": ["security"], "expected_substrings": ["AES-256"], "expected_tools": ["search_docs"]}
+{"id": "pen-tests", "question": "How often are penetration tests run?", "expected_docs": ["security"], "expected_substrings": ["every quarter"], "expected_tools": ["search_docs"]}
+{"id": "free-limit", "question": "What is the API rate limit on the free plan?", "expected_docs": ["api-limits"], "expected_substrings": ["60 requests per minute"], "expected_tools": ["search_docs"]}
+{"id": "429", "question": "What status code does the API return when a rate limit is exceeded?", "expected_docs": ["api-limits"], "expected_substrings": ["429"], "expected_tools": ["search_docs"]}
+{"id": "trial", "question": "How long is the free trial for new workspaces?", "expected_docs": ["onboarding"], "expected_substrings": ["14 day"], "expected_tools": ["search_docs"]}
+{"id": "math", "question": "What is 600 * 12?", "expected_docs": [], "expected_substrings": ["7200"], "expected_tools": ["calculator"]}
+{"id": "unanswerable", "question": "Which cloud region hosts the EU data center?", "expected_docs": [], "expected_substrings": ["don't know"], "expected_tools": ["search_docs"]}
